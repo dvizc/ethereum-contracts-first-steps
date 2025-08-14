@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"name": "balances",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ContratoInicial.sol": "ContratoInicial"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ContratoInicial.sol": {
+			"keccak256": "0x91fa4d9dcee3fd5f9cb2de84a206bad365ae5656881f1ae2645ea7150b192185",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://592f1c3baa3b164aedd36184d525b0b7e3bb77ce62bf9fd07e54223befa3b573",
+				"dweb:/ipfs/QmbHChysMKedvSPToX7BQJAv8kD98X5oUrfCmXJt7Vc5Fb"
+			]
+		}
+	},
+	"version": 1
+}
