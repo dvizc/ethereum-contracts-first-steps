@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "transfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "transferir",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Transfer.sol": "Transfer"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Transfer.sol": {
+			"keccak256": "0x04e22ecd868076b7fb8eea3dd9900e5413d7cc4486dc2a795d1b7ee2b90629ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://11f8f63f7e9cf184927c01941da53b2c1a7223bdc263fc41b6f889abe7a5bad8",
+				"dweb:/ipfs/QmRJu7bji2kKF6NrFfXq4G9q6uAXX3Fp6hvw7RuKWaSJ1E"
+			]
+		}
+	},
+	"version": 1
+}
