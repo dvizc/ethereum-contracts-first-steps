@@ -1,0 +1,130 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "nuevoNumero",
+						"type": "uint256"
+					}
+				],
+				"name": "actualizarNumero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "multiplicar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "numeroAlmacenado",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sumar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"actualizarNumero(uint256)": {
+					"notice": "Función normal (no es ni pure ni view)"
+				},
+				"multiplicar(uint256)": {
+					"notice": "Función VIEW: Lee estado pero no lo modifica"
+				},
+				"sumar(uint256,uint256)": {
+					"notice": "Función PURE: Solo opera con sus parámetros"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"EjemploPureView.sol": "EjemploPureView"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"EjemploPureView.sol": {
+			"keccak256": "0x9e87438abdf2f8e46d3392a3414df6b0d47411e1450bfde2fb5a87169273a85d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://67e65a8b5dba9720e154e5bd87e89a93bc5ea4d696fcc685ad5b978f4711a6e7",
+				"dweb:/ipfs/QmZwA8h1ueVcxnf5kLxuddFznJPRKnWzjiUvk2CQtqwM8T"
+			]
+		}
+	},
+	"version": 1
+}
